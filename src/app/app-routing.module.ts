@@ -5,6 +5,10 @@ const routes: Routes = [
   {
     path: '',
     loadChildren: () => import('./tabs/tabs.module').then(m => m.TabsPageModule)
+  },
+  {
+    path: 'qr-barcode',
+    loadChildren: () => import('./qr-barcode/qr-barcode.module').then( m => m.QrBarcodePageModule)
   }
 ];
 @NgModule({

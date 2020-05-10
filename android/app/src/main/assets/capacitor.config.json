@@ -1,0 +1,8 @@
+{
+  "appId": "com.barcodescannerionic.ionic",
+  "appName": "BarcodeScanner",
+  "bundledWebRuntime": false,
+  "npmClient": "npm",
+  "webDir": "www",
+  "cordova": {}
+}
